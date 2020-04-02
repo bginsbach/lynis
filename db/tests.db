@@ -376,7 +376,7 @@ SCHD-7704:test:security:scheduling::Check crontab/cronjobs:
 SCHD-7718:test:security:scheduling::Check at users:
 SCHD-7720:test:security:scheduling::Check at users:
 SCHD-7724:test:security:scheduling::Check at jobs:
-SHLL-6202:test:security:shells:FreeBSD:Check console TTYs:
+SHLL-6202:test:security:shells:BSD:Check console TTYs:
 SHLL-6211:test:security:shells::Checking available and valid shells:
 SHLL-6220:test:security:shells::Checking available and valid shells:
 SHLL-6230:test:security:shells::Perform umask check for shell configurations:

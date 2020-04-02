@@ -49,7 +49,7 @@
 
     # Test        : SHLL-6202
     # Description : check all console TTYs in which root user can enter single user mode without password
-    Register --test-no SHLL-6202 --os FreeBSD --weight L --network NO --category security --description "Check console TTYs"
+    Register --test-no SHLL-6202 --os "FreeBSD NetBSD" --weight L --network NO --category security --description "Check console TTYs"
     if [ ${SKIPTEST} -eq 0 ]; then
         LogText "Test: Checking console TTYs"
         FIND=$(${EGREPBINARY} '^console' ${ROOTDIR}etc/ttys | ${GREPBINARY} -v 'insecure')
